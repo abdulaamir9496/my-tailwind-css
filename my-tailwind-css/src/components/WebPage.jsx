@@ -108,11 +108,41 @@ const WebPage = () => {
             {/* Our Product Section ends here */}
 
             {/* Our Footer Section starts here */}
-            <footer className="w-full bg-gray-900 px-4 text-white pt-8 flex flex-wrap flex-col md:flex-row md:px-12 justify-between">
+            <footer className="w-full bg-gray-900 px-4 text-white pt-8 flex flex-col md:flex-row flex-wrap justify-between md:px-12">
                 <div>
-                    <img src="https://pwskills.com/images/PWSkills-white.png" alt="" />
-                    <p>Email us: support@djskills.com</p>
-                    <img src="https://pwskills.com/images/iso-9001-2015.svg" alt="" />
+                    <img className="w-40 h-16" src="https://pwskills.com/images/PWSkills-white.png" alt="" />
+                    <p className="my-4">Email us: support@djskills.com</p>
+                    <img className="w-32 h-32" src="/public/award.png" alt="" />
+                </div>
+
+                <div>
+                    <h2 className="font-bold text-xl mt-4">DJ Skills</h2>
+                    <div className="w-32 h-1 border-b-2 border-yellow-400 rounded-2xl my-2"></div>
+                    <div>
+                            <p>About Us</p>
+                            <p>FAQ's</p>
+                            <p>Privacy Policy</p>
+                    </div>
+                </div>
+                <div>
+                    <h2 className="font-bold text-xl mt-4">Products</h2>
+                    <div className="w-32 h-1 border-b-2 border-yellow-400 rounded-2xl my-2"></div>
+                    <div>
+                            <p>DJ Skills lab</p>
+                            <p>Job Portal</p>
+                            <p>Experience Portal</p>
+                            <p>Become an Affiliate</p>
+                            <p>Hall of Fame</p>
+                    </div>
+                </div>
+                <div>
+                    <h2 className="font-bold text-xl mt-4">Links</h2>
+                    <div className="w-32 h-1 border-b-2 border-yellow-400 rounded-2xl my-2"></div>
+                    <div>
+                            <p>Discord Channel</p>
+                            <p>DJ Youtube</p>
+                            <p>Career</p>
+                    </div>
                 </div>
             </footer>
             {/* Our Footer Section ends here */}
