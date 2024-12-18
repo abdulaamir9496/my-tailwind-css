@@ -2,9 +2,9 @@
 const WebPage = () => {
     return (
         <>
-        {/* navbar starts here */}
+            {/* navbar starts here */}
             <nav className="w-full h-14 bg-indigo-200 flex justify-between items-center px-4 md:px-4">
-                <div className="text-2xl font-bold text-indigo-700">Aamirs Dev Journey</div>
+                <div className="text-2xl font-bold text-indigo-700">Aamir's Dev Journey</div>
                 <ul className="md:flex hidden font-semibold">
                     <li className="mx-[10px] cursor-pointer">Home</li>
                     <li className="mx-[10px] cursor-pointer">About Us</li>
@@ -21,7 +21,7 @@ const WebPage = () => {
             </nav>
             {/* navbar ends here */}
 
-{/* Image section starts here */}
+            {/* Image section starts here */}
             <header>
                 <img
                     className="w-full hidden md:block"
@@ -35,6 +35,87 @@ const WebPage = () => {
                 />
             </header>
             {/* Image section ends here */}
+
+            {/* Our Students Section starts here */}
+            <div className="h-auto w-100 flex flex-wrap flex-col items-center text-center p-10">
+                <div className="w-full h-auto flex flex-wrap flex-col items-center">
+                    <p className="text-indigo-800 font-bold text-3xl md:text-4xl text-center">"Pure Hardwork, No Shortcuts!"</p>
+                    <div className="w-36 h-1 border-b-4 border-yellow-400 mt-2 rounded-2xl md:mt-4 mb-12 "></div>
+                </div>
+
+                <div className="w-full flex flex-wrap justify-evenly">
+                    <div className="w-46 flex flex-col items-center mb-12">
+                        <img className="w-44 h-44" src="/public/blended-learning.png" alt="" />
+                        <p className="text-3xl font-bold text-white">600+</p>
+                        <p className="text-3xl font-bold text-gray-500">Different Courses</p>
+                    </div>
+
+                    <div className="w-46 flex flex-col items-center mb-12">
+                        <img className="w-44 h-44" src="/public/graduate (1).png" alt="" />
+                        <p className="text-3xl font-bold text-white">700,000+</p>
+                        <p className="text-3xl font-bold text-gray-500">Students Enrolled</p>
+                    </div>
+
+                    <div className="w-46 flex flex-col items-center mb-12">
+                        <img className="w-44 h-44" src="/public/certificate.png" alt="" />
+                        <p className="text-3xl font-bold text-white">10,000+</p>
+                        <p className="text-3xl font-bold text-gray-500">Successful Transition</p>
+                    </div>
+                </div>
+            </div>
+            {/* Our Students Section ends here */}
+
+            {/* Our Product Section starts here */}
+            <div className="h-auto w-100 flex flex-wrap flex-col items-center text-center p-10">
+                <div className="w-full h-auto flex flex-wrap flex-col items-center">
+                    <p className="text-indigo-800 font-bold text-3xl md:text-4xl text-center">Our Products"</p>
+                    <div className="w-36 h-1 border-b-4 border-yellow-400 mt-2 rounded-2xl md:mt-4 mb-12 "></div>
+                </div>
+                {/* outer box */}
+                <div className="w-[90%] h-auto flex flex-wrap justify-around">
+                    {/* First Card: Outer division */}
+                    <div className="w-64 flex flex-col items-center mb-12 border-white border-2 rounded-xl p-2">
+                        <img src="/public/computer-laboratory.png" alt="" />
+                        <p  className="text-3xl font-bold text-white">Developer Skills lab</p>
+                        <p  className="text-xl font-bold text-gray-500">SuperCharge your project development with our robust lab</p>
+                    </div>
+                    {/* Second Card: Outer division */}
+                    <div className="w-64 flex flex-col items-center mb-12 rounded-xl p-2">
+                        <img src="/public/job-portal.png" alt="" />
+                        <p  className="text-3xl font-bold text-white">Job Portal</p>
+                        <p  className="text-xl font-bold text-gray-500">Use exceptional templates for a stand-out resume minus the sign up process</p>
+                    </div>
+                    {/* Third Card: Outer division */}
+                    <div className="w-64 flex flex-col items-center mb-12 rounded-xl p-2">
+                        <img src="/public/experience.png" alt="" />
+                        <p  className="text-3xl font-bold text-white">Experience Portal</p>
+                        <p  className="text-xl font-bold text-gray-500">DJ Skills self-paced experience portal prioritises hands-on training with 570+ internship projects.</p>
+                    </div>
+                    {/* Fourth Card: Outer division */}
+                    <div className="w-64 flex flex-col items-center mb-12 rounded-xl p-2">
+                        <img src="/public/affiliate-marketing.png" alt="" />
+                        <p  className="text-3xl font-bold text-white">Become an Affiliate</p>
+                        <p  className="text-xl font-bold text-gray-500">Explore affiliate marketing opportunities with DJ Skills and attain financial freedom.</p>
+                    </div>
+                    {/* Fifth Card: Outer division */}
+                    <div className="w-64 flex flex-col items-center mb-12 rounded-xl p-2">
+                        <img src="/public/hall-of-fame (2).png" alt="" />
+                        <p  className="text-3xl font-bold text-white">Hall of Fame</p>
+                        <p  className="text-xl font-bold text-gray-500">Our student placements and 100k+ career transitions speak volumes about our courses.</p>
+                    </div>
+                </div>
+            </div>
+            {/* Our Product Section ends here */}
+
+            {/* Our Footer Section starts here */}
+            <footer className="w-full bg-gray-900 px-4 text-white pt-8 flex flex-wrap flex-col md:flex-row md:px-12 justify-between">
+                <div>
+                    <img src="https://pwskills.com/images/PWSkills-white.png" alt="" />
+                    <p>Email us: support@djskills.com</p>
+                    <img src="https://pwskills.com/images/iso-9001-2015.svg" alt="" />
+                </div>
+            </footer>
+            {/* Our Footer Section ends here */}
         </>
     )
 }
